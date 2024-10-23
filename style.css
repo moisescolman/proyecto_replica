@@ -1,24 +1,31 @@
 * {  margin:0;
     padding: 0;
 }
+body {
+    font-family: Montserrat;
+}
 h1 {
     font-size: 4rem;
-    font-family: Montserrat;
     color: white;
 }
 h2 {
     font-size: 3rem;
-    font-family: Montserrat;
     padding-top: 3rem;
 }
-p {
-    font-family: Montserrat;;
-}
-.texto {
-    font-family: Montserrat;
+h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
     color: white;
-    font-size: 1.2rem;
-    padding: 2rem;
+}
+p {
+    font-weight: 500;
+}
+.texto{
+    color: white;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    font-weight: 600;
 }
 nav {
     background-color: #2c3e50;
@@ -31,16 +38,14 @@ nav {
 }
 nav a {
     text-decoration: none;
-    font-family: Montserrat;
     font-weight: bold;
 }
 nav p {
-    font-family: Montserrat;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
 }
 nav div {
-    width: 37.5%;
+    width: 37.53%;
     min-height: 3rem;
     display: flex;
     justify-content: center;
@@ -84,16 +89,106 @@ main {
 }
 main>div {
     border:red solid 4px;
-    width: 75%;
+    width: 100%;
     min-height: 35rem;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
 }
+main div div img {
+    width: 30%;
+    border-radius: 4%;
+    margin: 1rem;   
+}
+article {
+    width: 20%;
+    border: red solid 2px;
+    min-height: 10rem;
+    margin: 1rem;
+}
+button {
+    font-weight: 600;
+    font-size: 1rem;
+    width: 15rem;
+    height: 4rem;
+    color: white;
+    background-color: #1abc9c;
+    border: white solid 0.2rem;
+    border-radius: 0.4rem;
+    font-family: Montserrat;
+    
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 2rem;
+}
+form label {
+    width: 100%;
+    font-size: 1.4rem;
+    color: #2c3e50;
+
+}
+form input{
+    width: 100%;
+    min-height: 2rem;
+    border: none;
+    border-bottom: solid #e9ecef 0.10rem;
+    margin-bottom: 1.5rem;
+}
+input[id="message"] {
+    min-height: 10rem;
+}
+form button {
+    width: 7rem;
+}
+footer {
+    width: 100%;
+    display: flex;
+    background-color: #2c3e50;
+    min-height: 25rem;
+    justify-content: center;
+    align-items: end;
+    flex-wrap: wrap;
+}
+footer>div {
+    display: flex;
+    border: 2px yellow solid;
+    justify-content: space-between;
+    width: 60%;
+    min-height: 3rem;
+    
+}
+footer>div>div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    width: 30%;
+    border: aqua solid 2px;
+    min-height: 15rem;
+}
+address {
+    text-align: center;
+    display: block;
+    color: white;
+    font-style: normal;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* CLASES ESPECIFICAS */
+
 .contenedorFotos{
+    border: 4px purple solid;
+    width: 60%;
+    margin-bottom: 5rem;
+
+}
+.contenedorFormulario{
     border: 2px blue solid;
-    width: 80%;
+    width: 40%;
     margin-bottom: 5rem;
 
 }
@@ -102,30 +197,6 @@ main>div {
     justify-content: center;
     align-items: top;
 }
-main div div img {
-    width: 30%;
-    border-radius: 4%;
-    margin: 1rem;   
-}
-article {
-    width: 30%;
-    border: red solid 2px;
-    min-height: 10rem;
-    margin: 1.5rem;
-}
-button {
-    width: 15rem;
-    height: 4rem;
-    color: black;
-
-}
-footer {
-    background-color: #2c3e50;
-    min-height: 10rem;
-}
-
-/* CLASES ESPECIFICAS */
-
 .contBlanco {
     background-color: white;
     color: #2c3e50;
@@ -133,4 +204,15 @@ footer {
 .contAqua {
     background-color: #1abc9c;
     color: white;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 0.1rem;
+    font-size: 0.9rem;
+    color: white;
+    text-align: center;
+    background-color: #1a252f;
 }
