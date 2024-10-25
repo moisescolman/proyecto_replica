@@ -18,6 +18,11 @@ h3 {
     font-size: 1.5rem;
     color: white;
 }
+h4 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: white;
+}
 p {
     font-weight: 400;
 }
@@ -34,52 +39,54 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: green solid 2px;
+    /* border: green solid 2px; */
 }
 nav a {
     text-decoration: none;
     font-weight: bold;
 }
 nav p {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: bold;
 }
 nav div {
-    width: 37.53%;
-    min-height: 3rem;
+    width: 59%;
+    min-height: 6rem;
     display: flex;
-    justify-content: center;
-    border: red solid 2px;
+    justify-content: space-between; 
     align-items: center;
 }
-nav ul li{  
+
+.menu{  
     display: inline;
-    padding-left: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 nav ul li a,p{
     color: white;
 }
 header {
     background-color:#1abc9c;
-    min-height: 40rem;
+    min-height: 42rem;
     display: flex;
     justify-content: center;
     
 }
-header div {
-    border: yellow 2px solid;
+header>div {
+    /* border: yellow 2px solid; */
     width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-header div img {
-    width: 12rem;
+.avatar{
+    width: 15rem;
+    margin-bottom: 2rem;
 }
 main {
     width: 100%;
-    border: green solid 2px;
+    /* border: green solid 2px; */
     background-color: white;
     min-height: 40rem;
     display: flex;
@@ -88,7 +95,7 @@ main {
     align-items: center;
 }
 main>div {
-    border:red solid 4px;
+    /* border:red solid 4px; */
     width: 100%;
     min-height: 35rem;
     display: flex;
@@ -184,6 +191,51 @@ span {
 }
 
 /* CLASES ESPECIFICAS */
+.lineStar {
+    width: 50%;
+    /* border: red 2pt solid; */
+    min-height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.decoracionStar {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+.lineaBlanca {
+    width: 7rem;
+    height: 3rem;
+}
+.decoracionLine {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+.decoracionLineDark {
+    color: #2c3e50;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 0;
+
+}
+
+/* .decoracion {
+    display: block;
+    width: 20%;
+    height: 2rem;
+    width: 2rem;
+    line-height: 1.7rem;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+} */
 
 .contenedorFotos{
     display: flex;
