@@ -73,8 +73,9 @@ header {
     
 }
 header>div {
-    /* border: yellow 2px solid; */
-    width: 75%;
+    border: yellow 2px solid;
+    width: 100%;
+    min-height: 35rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -95,13 +96,16 @@ main {
     align-items: center;
 }
 main>div {
-    /* border:red solid 4px; */
+    border:red solid 4px;
     width: 100%;
     min-height: 35rem;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
+}
+.imgDeco {
+    margin:0
 }
 main div div img {
     width: 30%;
@@ -193,7 +197,7 @@ span {
 /* CLASES ESPECIFICAS */
 .lineStar {
     width: 50%;
-    /* border: red 2pt solid; */
+    border: red 2pt solid;
     min-height: 4rem;
     display: flex;
     justify-content: center;
@@ -201,6 +205,7 @@ span {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
 .decoracionStar {
     margin-left: 1rem;
     margin-right: 1rem;
